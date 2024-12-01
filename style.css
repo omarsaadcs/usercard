@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: whitesmoke;
+}
+
+/* ====================================================== */
+.container{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* ====================================================== */
+.text{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+
+}
+
+.sidebar{
+    width: 20px;
+    height: 80%;
+    border-radius: 50px;
+    background:blueviolet;
+    transition: 0.3s;
+}
+.sidebar:hover{
+    height: 90%;
+
+}
+.info{
+    font-size: xx-large;
+    color: blueviolet;
+}
+
+/* ====================================== */
+.card{
+    width: 25%;
+    height: 400px;
+    background: white;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* زيادة الظل عند التمرير */
+}
+.logo{
+    width: 100%;
+    height: auto;
+    
+   
+}
+
+.logo img{
+    margin-top: 30px;
+    width: 30%;
+    height:100px;
+    border: blanchedalmond 1px;
+    border-radius: 100%;
+    margin-left: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateX(-50%);
+    transition: 0.3;
+}
+
+.logo img:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.about{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+.about p{
+    margin-top: 5px;
+}
+.media{
+    width: 45%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-large;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s;
+}
+
+.media i:hover{
+    transform: scale(1.1);
+
+}
+.media .f{
+    color: blue;
+}
+.media .x{
+    color: black;
+}
+
+.media .in{
+    color: palevioletred;
+}
+.media .y{
+    color:red;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+
+.contact button {
+    padding: 10px 15px;
+    background: blueviolet;
+    border: blanchedalmond 1px solid;
+    border-radius: 10px;
+    color: white;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact button:hover {
+    background: rebeccapurple;
+    transform: scale(1.1);
+}
+
+
+.icons{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.icons .comment{
+    padding: 0 15px;
+   border-left: grey 1px solid;
+   border-right: grey 1px solid;
+}
+
+/* =============================================== */
+
+
+
